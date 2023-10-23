@@ -1,0 +1,118 @@
+.header, .image-container,.btn-container, .btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+body {
+background-color:#ECE5C7;
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 55px;
+    color: #116A7B;
+    font-family: 'Nanum Pen Script', cursive; 
+}
+#parOne,#parTwo,#parThree  {
+  margin-top: 25px;
+  font-size: 45px;
+  color: #a54cae;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+h2 {
+    color:#967E76;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.start {
+    padding: 15px;
+    width: 15%;
+    background-color: #C2DEDC;
+    color: #116A7B;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+    border: none;
+}
+.start:hover {
+    background-color:#F2D8D8;
+    cursor: pointer;
+}
+
+
+#one, #two {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: none;
+    padding: 20px;
+    width: 30%;
+    background-color: #C2DEDC;
+    color: #4942E4;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+    border: none;
+}
+
+#one:hover, #two:hover {
+    background-color:#F2D8D8;
+    cursor: pointer;
+}
+
+#myImage {
+    width: 600px;
+}
+
+.back-btn-container {
+    display:flex;
+    justify-content:center;
+  }
+
+@media all and (max-width: 800px) {
+    h1 {
+       font-size: 40px;
+    }
+    #myImage {
+        margin-top: 10px;
+        width: 500px; 
+    }
+    #one, #two {
+        padding: 10px;
+        width: 40%;
+    }
+
+    .start {
+        padding: 15px;
+        width: 24%;
+        font-size: 25px;
+
+    }
+
+   }
+   
+   @media all and (max-width: 500px) {
+       h1 {
+          font-size: 30px;
+       }
+       #myImage {
+        margin-top: 10px;
+        width: 400px; 
+    }
+    #one, #two {
+        padding: 10px;
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .start {
+        padding: 15px;
+        width: 24%;
+        font-size: 20px;
+
+    }
+    #parOne,#parTwo,#parThree {
+        font-size: 30px;
+    }
+   
+      }
